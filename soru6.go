@@ -8,6 +8,6 @@ func main() {
 		for i := 0; i < len(arr); i++ {
 			sum += arr[i]
 		}
-		average := (float64(sum)) / 2
+		average := (float32(sum)) / 10
 		fmt.Println("Sum = ", sum, "Average = ", average)
 }
